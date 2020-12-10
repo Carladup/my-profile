@@ -1,0 +1,99 @@
+img{
+	height: 300px;
+	width: 200px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px;
+}
+
+h1, h2, h3{
+	font-family: 'Bebas Neue', cursive;
+	color: rgb(252, 119, 164);
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+h1{ 
+	font-size: 40px;
+	font-weight: bolder;
+	letter-spacing: 3px;
+}
+h3{
+	font-size: 26px;
+	font-weight: lighter;
+}
+
+body{
+	font-family:'Roboto', sans-serif;
+	font-size: 22px;
+	line-height: 20px;
+	background-color: rgb(230, 230, 230);
+	color: rgb(50, 50, 50);
+	text-align: justify;
+}
+
+a{
+	color: rgb(255, 255, 255);
+	font-family:'Dancing Script', cursive;
+	text-decoration: none;
+	transition: color 0.3s ease;   
+}
+a:hover{
+	color: rgb(255, 154, 194);
+	text-decoration: none;
+} 
+
+div{
+	padding: 60px;
+	border-radius: : 20px;
+	margin:40px auto;
+	background-color: rgb(190, 190, 190);
+	box-shadow: 2px 2px 8px rgba(25, 25, 25, 1.0);
+ }
+
+ .container{
+ 	width: 900px;
+ 	margin: 40px auto;
+ 	background-color: rgb(100, 90, 100);
+ }
+
+ .card-withe{
+ 	background-color: rgb(170, 170, 170);
+    margin: 30px auto;
+	width: 800px;
+ }
+
+ .list-inline{
+ 	list-style: none;
+ 	padding-left: 0px; 
+ }
+ .list-inline li{
+ 	display: inline;
+ 	padding: 10px;
+ }
+
+ #first{
+ 	text-align: center;
+ }
+ #logo{
+ 	font-size: 50px;
+ }
+
+@media (max-width: 700px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+@media (max-width: 300px) {
+	.container{
+		width: 200px;
+	}
+
